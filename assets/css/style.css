@@ -1,0 +1,24 @@
+body { background-color: rgb(59, 110, 177); }
+
+.wrapper { width: 800px; margin: auto; padding: 10px; border: 1px solid white; border-radius: 10px; background-color: white; }
+
+.form-book form { width: 500px; display: flex; flex-direction: column; }
+.form-book input { margin: 5px; }
+
+.horizontal { display: flex; }
+fieldset { width: 100% }
+
+.book-row { display: flex; flex-direction: row; justify-content: space-around;  align-items: center;  margin: 2px; padding: 5px; border-radius: 10px; }
+.book-row p { margin: 0; }
+.book-row:hover { background-color: rgb(129, 146, 192); }
+.book-row-block { width: 100%; }
+
+.odd-color { background-color: rgb(219, 219, 219); }
+.even-color { background-color: rgb(235, 235, 235); }
+
+#button { margin-bottom: 15px; }
+.a-button { padding: 3px; background-color: rgb(233, 233, 233); border: 1px solid grey; border-radius: 5px; }
+.a-button:hover { background-color: rgb(202, 202, 202); }
+
+a { text-decoration: none; color: black; }
+#infos-link a { margin-right: 10px; }
